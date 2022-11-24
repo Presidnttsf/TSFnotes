@@ -32,7 +32,7 @@ transmit.addEventListener("click", function (e) {
         // insert value into them
         h1.innerHTML = inputTitle.value;
         p.innerHTML = inputText.value;
-        button.innerHTML = "Delete";
+        button.innerHTML = "X";
 
         // append all child
         child.appendChild(button);
